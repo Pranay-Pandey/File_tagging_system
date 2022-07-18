@@ -2,7 +2,7 @@
 """
 Created on Fri Jul 15 16:45:03 2022
 
-@author: prana
+@author: pranay pandey
 """
 
 import os
@@ -12,11 +12,11 @@ from tkinter import filedialog, Text
 import json
 import re
 
-def add_meta(image, meta):
-    with open(image, 'a+b') as f:
+def add_meta(image, meta):          #not part of the code but is a trial to add tags to the meta data of any file
+    with open(image, 'a+b') as f:   #works for image files not any other
         f.write(json.dumps(meta).encode('utf-8'))
 
-def read_meta(image):
+def read_meta(image):               #not part of the code but is a trial to get tags from the meta data of any file
     with open(image, 'rb') as f:
         data = str(f.read())
     meta = re.findall(r'xff.*({.*})\'\Z', data)[-1]
