@@ -1,6 +1,6 @@
 # File Tagging System
 
-This development is a part of <b><a href='https://unstop.com/hackathon/tally-codebrewers-tally-solutions-343510'>Tally CodeBrewers</a> <a href='https://tallysolutions.com/'>Tally Solutions</a></b>.
+This development is a part of <b><a href='https://unstop.com/hackathon/tally-codebrewers-tally-solutions-343510'>Tally CodeBrewers</a> <a href='https://tallysolutions.com/'>Tally Solutions</a></b> and has won the first runner up prize in the hackathon.
 
 <h3>File Tagging</h3>
 A software that will help users organize their Files on disk using Tags.<br>
